@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemoteLink</string>
+    <string name="back">رجوع</string>
+    <string name="ok">تأكيد</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="home_title">التحكم بالجوال عن بُعد</string>
+    <string name="home_subtitle">اتصال مباشر بين جوالَيك دون إنترنت</string>
+    <string name="role_controller">هذا الجوال هو المتحكِّم</string>
+    <string name="role_controller_desc">للتحكم بجوال آخر وعرض ملفاته</string>
+    <string name="role_host">هذا الجوال هو المتحكَّم به</string>
+    <string name="role_host_desc">للسماح لجوالك الآخر بالتحكم به</string>
+    <string name="own_devices_note">التطبيق مخصص للأجهزة التي تملكها أنت فقط.</string>
+
+    <string name="host_title">المتحكَّم به</string>
+    <string name="host_start">تشغيل الاستقبال</string>
+    <string name="host_stop">إيقاف الاستقبال</string>
+    <string name="host_running">الاستقبال يعمل</string>
+    <string name="host_stopped">الاستقبال متوقف</string>
+    <string name="host_port">المنفذ: %1$d</string>
+    <string name="host_ips">عناوين هذا الجوال: %1$s</string>
+    <string name="host_no_ip">لا يوجد عنوان شبكة. فعّل Wi-Fi أو نقطة الاتصال (Hotspot).</string>
+    <string name="host_pair_new">إقران جهاز جديد</string>
+    <string name="host_pair_hint">امسح الرمز من جوال المتحكِّم ثم أدخل الرقم السري المعروض أدناه</string>
+    <string name="host_pin_label">الرقم السري</string>
+    <string name="host_expires">ينتهي خلال %1$s</string>
+    <string name="host_pair_expired">انتهت صلاحية الرمز</string>
+    <string name="host_trusted">الأجهزة المقترنة</string>
+    <string name="host_none">لا توجد أجهزة مقترنة بعد</string>
+    <string name="host_connected_now">متصل الآن</string>
+    <string name="host_error">تعذر التشغيل: %1$s</string>
+    <string name="unpair">إلغاء الاقتران</string>
+
+    <string name="ctrl_title">المتحكِّم</string>
+    <string name="ctrl_scan">مسح رمز QR لإقران جوال</string>
+    <string name="ctrl_nearby">أجهزة قريبة على الشبكة</string>
+    <string name="ctrl_nearby_empty">لا توجد أجهزة ظاهرة. تأكد أن الجوالين على نفس الشبكة وأن الاستقبال يعمل.</string>
+    <string name="ctrl_paired">أجهزتي المقترنة</string>
+    <string name="ctrl_connect">اتصال</string>
+    <string name="ctrl_manual_ip">عنوان يدوي</string>
+    <string name="ctrl_manual_title">الاتصال بعنوان IP</string>
+    <string name="ctrl_ip_hint">عنوان IP (مثال 192.168.1.20)</string>
+    <string name="ctrl_not_paired">جهاز غير مقترن — امسح رمز QR أولًا</string>
+    <string name="ctrl_pin_title">أدخل الرقم السري</string>
+    <string name="ctrl_pin_msg">الرقم المعروض على شاشة الجوال الآخر (6 أرقام)</string>
+    <string name="ctrl_pairing">جارٍ الاقتران…</string>
+    <string name="remove">إزالة</string>
+    <string name="qr_invalid">الرمز غير صالح</string>
+
+    <string name="err_bad_pin">الرقم السري غير صحيح</string>
+    <string name="err_inactive">لا توجد جلسة اقتران نشطة على الجوال الآخر</string>
+    <string name="err_blocked">محاولات كثيرة. حاول بعد دقيقة</string>
+    <string name="err_busy">الجوال مشغول بجلسة أخرى</string>
+    <string name="err_network">تعذر الوصول للجوال. تأكد من الشبكة والعنوان</string>
+    <string name="err_unpaired">تم إلغاء الاقتران من الجوال الآخر. أعد الاقتران</string>
+
+    <string name="sess_title">جلسة الاتصال</string>
+    <string name="sess_connecting">جارٍ الاتصال بـ %1$s…</string>
+    <string name="sess_reconnect">انقطع الاتصال، تتم إعادة المحاولة (المحاولة %1$d)</string>
+    <string name="sess_connected">متصل بـ %1$s</string>
+    <string name="sess_ip">العنوان: %1$s</string>
+    <string name="sess_ping">زمن الاستجابة: %1$s مللي ثانية</string>
+    <string name="sess_net">الشبكة: %1$s</string>
+    <string name="sess_signal">قوة الإشارة: %1$d/4</string>
+    <string name="sess_disconnect">قطع الاتصال</string>
+    <string name="sess_next">نقل الملفات وعرض الشاشة والتحكم تأتي في المراحل التالية.</string>
+    <string name="net_wifi">Wi-Fi</string>
+    <string name="net_eth">Ethernet</string>
+    <string name="net_cell">بيانات الجوال</string>
+    <string name="net_none">غير متصل بشبكة (قد يكون Hotspot)</string>
+    <string name="net_other">شبكة أخرى</string>
+
+    <string name="notif_channel">استقبال الاتصالات</string>
+    <string name="notif_title">RemoteLink يستقبل الاتصالات</string>
+    <string name="notif_text">هذا الجوال جاهز لاستقبال جوال المتحكِّم</string>
+    <string name="notif_stop">إيقاف</string>
+</resources>

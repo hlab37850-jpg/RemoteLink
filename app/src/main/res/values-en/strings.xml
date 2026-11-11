@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemoteLink</string>
+    <string name="back">Back</string>
+    <string name="ok">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="home_title">Remote phone control</string>
+    <string name="home_subtitle">Direct link between your two phones, no internet</string>
+    <string name="role_controller">This phone is the Controller</string>
+    <string name="role_controller_desc">Control another phone and browse its files</string>
+    <string name="role_host">This phone is the Host</string>
+    <string name="role_host_desc">Let your other phone control this one</string>
+    <string name="own_devices_note">Intended only for devices you own.</string>
+
+    <string name="host_title">Host</string>
+    <string name="host_start">Start receiving</string>
+    <string name="host_stop">Stop receiving</string>
+    <string name="host_running">Receiving is on</string>
+    <string name="host_stopped">Receiving is off</string>
+    <string name="host_port">Port: %1$d</string>
+    <string name="host_ips">This phone\'s addresses: %1$s</string>
+    <string name="host_no_ip">No network address. Turn on Wi-Fi or Hotspot.</string>
+    <string name="host_pair_new">Pair a new device</string>
+    <string name="host_pair_hint">Scan the code from the Controller, then enter the PIN shown below</string>
+    <string name="host_pin_label">PIN</string>
+    <string name="host_expires">Expires in %1$s</string>
+    <string name="host_pair_expired">Code expired</string>
+    <string name="host_trusted">Paired devices</string>
+    <string name="host_none">No paired devices yet</string>
+    <string name="host_connected_now">Connected now</string>
+    <string name="host_error">Could not start: %1$s</string>
+    <string name="unpair">Unpair</string>
+
+    <string name="ctrl_title">Controller</string>
+    <string name="ctrl_scan">Scan QR code to pair</string>
+    <string name="ctrl_nearby">Nearby devices on the network</string>
+    <string name="ctrl_nearby_empty">No devices found. Make sure both phones are on the same network and the host is receiving.</string>
+    <string name="ctrl_paired">My paired devices</string>
+    <string name="ctrl_connect">Connect</string>
+    <string name="ctrl_manual_ip">Manual IP</string>
+    <string name="ctrl_manual_title">Connect by IP address</string>
+    <string name="ctrl_ip_hint">IP address (e.g. 192.168.1.20)</string>
+    <string name="ctrl_not_paired">Not paired — scan the QR code first</string>
+    <string name="ctrl_pin_title">Enter the PIN</string>
+    <string name="ctrl_pin_msg">The 6-digit PIN shown on the other phone</string>
+    <string name="ctrl_pairing">Pairing…</string>
+    <string name="remove">Remove</string>
+    <string name="qr_invalid">Invalid code</string>
+
+    <string name="err_bad_pin">Wrong PIN</string>
+    <string name="err_inactive">No active pairing session on the other phone</string>
+    <string name="err_blocked">Too many attempts. Try again in a minute</string>
+    <string name="err_busy">The phone is in another session</string>
+    <string name="err_network">Could not reach the phone. Check the network and address</string>
+    <string name="err_unpaired">Unpaired from the other phone. Pair again</string>
+
+    <string name="sess_title">Session</string>
+    <string name="sess_connecting">Connecting to %1$s…</string>
+    <string name="sess_reconnect">Connection lost, retrying (attempt %1$d)</string>
+    <string name="sess_connected">Connected to %1$s</string>
+    <string name="sess_ip">Address: %1$s</string>
+    <string name="sess_ping">Latency: %1$s ms</string>
+    <string name="sess_net">Network: %1$s</string>
+    <string name="sess_signal">Signal strength: %1$d/4</string>
+    <string name="sess_disconnect">Disconnect</string>
+    <string name="sess_next">File transfer, screen view and control come in the next phases.</string>
+    <string name="net_wifi">Wi-Fi</string>
+    <string name="net_eth">Ethernet</string>
+    <string name="net_cell">Mobile data</string>
+    <string name="net_none">No network (may be Hotspot)</string>
+    <string name="net_other">Other network</string>
+
+    <string name="notif_channel">Incoming connections</string>
+    <string name="notif_title">RemoteLink is receiving connections</string>
+    <string name="notif_text">This phone is ready for the Controller</string>
+    <string name="notif_stop">Stop</string>
+</resources>
